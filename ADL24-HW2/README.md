@@ -16,8 +16,8 @@ pip install -e tw_rouge # install tw_rouge for evaluation
 ## Fix T5 FP16 Training (Optional)
 ```shell
 git clone https://github.com/huggingface/transformers.git
-git checkout t5-fp16-no-nans
 cd transformers
+git checkout t5-fp16-no-nans
 pip install -e .
 ```
 
